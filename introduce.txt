@@ -5,11 +5,19 @@ A base de dados MNIST contém imagens de dígitos manuscritos (0 a 9) e
 é amplamente usada como benchmark para modelos de aprendizado de máquina e redes neurais.
 
 
+Principais Características do Keras
+Fácil de usar – Permite definir e treinar redes neurais em poucas linhas de código.
+Modular – Os blocos principais (camadas, modelos, otimizadores) são independentes e reutilizáveis.
+Portável – Funciona com CPU, GPU e TPU sem necessidade de mudanças no código.
+Compatível com múltiplos backends – Embora seja integrado ao TensorFlow, já foi compatível com Theano e CNTK.
+Extensível – Você pode criar suas próprias camadas e modelos personalizados.
+
 
 
 https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 
 Resumo do Código:
+Importamos a biblioteca Keras
 Carregamos o conjunto de dados MNIST.
 Criamos uma rede neural simples com uma camada densa e uma camada de saída com 10 neurônios.
 Treinamos o modelo para classificar os dígitos.

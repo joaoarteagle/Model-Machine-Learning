@@ -1,0 +1,23 @@
+ Vamos usar a biblioteca Keras, que é uma interface de alto nível para construir e treinar modelos de aprendizado profundo.
+
+Exemplo Prático: Classificação de Imagens com a Base de Dados MNIST
+A base de dados MNIST contém imagens de dígitos manuscritos (0 a 9) e 
+é amplamente usada como benchmark para modelos de aprendizado de máquina e redes neurais.
+
+
+
+
+https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+
+Resumo do Código:
+Carregamos o conjunto de dados MNIST.
+Criamos uma rede neural simples com uma camada densa e uma camada de saída com 10 neurônios.
+Treinamos o modelo para classificar os dígitos.
+Avaliamos a precisão no conjunto de teste.
+Fizemos previsões com o modelo treinado.
+
+
+Resultados Esperados:
+Durante o treinamento, veremos a perda e a precisão para cada época.
+Após o treinamento, a precisão do modelo no conjunto de teste deve ser em torno de 98%, 
+isso se dá porque o MNIST é uma dataset relativamente simples para redes neurais.
